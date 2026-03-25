@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kawm Lus Hmoob</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app__header">
+        <h1>Kawm Lus Hmoob</h1>
+        <p>Learn practical Hmong vocabulary and grammar from beginner to A2 level.</p>
+      </header>
+
+      <section class="card" aria-live="polite">
+        <div class="card__title-row">
+          <h2 id="lesson-title">Lesson</h2>
+          <span id="lesson-level" class="badge"></span>
+        </div>
+        <p id="lesson-grammar" class="muted"></p>
+
+        <div class="vocab">
+          <h3>Core vocabulary</h3>
+          <ul id="vocab-list"></ul>
+        </div>
+      </section>
+
+      <section class="card quiz">
+        <h2>Quick quiz</h2>
+        <p id="question-text"></p>
+        <div class="quiz__actions">
+          <input id="answer-input" type="text" placeholder="Type your answer" autocomplete="off" />
+          <button id="check-answer" type="button">Check</button>
+        </div>
+        <p id="quiz-feedback" role="status" aria-live="polite"></p>
+      </section>
+
+      <footer class="controls">
+        <button id="previous-lesson" type="button">Previous lesson</button>
+        <button id="next-lesson" type="button">Next lesson</button>
+      </footer>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
