@@ -13,7 +13,7 @@ test('isAnswerCorrect handles casing and extra spaces', () => {
 });
 
 test('lesson data keeps content and quiz separated from app logic', () => {
-  assert.ok(lessons.length >= 3);
+  assert.ok(lessons.length >= 6);
   assert.ok(lessons.every((lesson) => lesson.vocabulary.length > 0));
   assert.ok(lessons.every((lesson) => typeof lesson.quiz.answer === 'string'));
 });

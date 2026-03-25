@@ -1,5 +1,8 @@
 # KawmLusHmoob
 
-Your job is to create a Hmong Duolingo of sorts, but name it Kawm Lus Hmoob. It should be good enough to teach me basic vocabulary and grammar to A2 level. It should be mobile friendly and have a decent UI. Try your best!
+Kawm Lus Hmoob yog ib qhov web app pab kawm lus Hmoob zoo ib yam li ib qho app kawm lus. Lub hom phiaj yog pab tus kawm paub cov lus siv niaj hnub thiab qauv kab lus mus txog qib A2.
 
-It should be a web application. Think of a stack, use it to develop the app. Ideally, the "data"—that is the lessons, should be somewhat separate from the business logic.
+Qhov project no yuav tsum:
+- yog web application siv tau zoo hauv xov tooj;
+- muaj interface nyeem tau yooj yim;
+- cais cov **lesson data** tawm ntawm **business logic** kom kho tau yooj yim.

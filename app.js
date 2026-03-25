@@ -44,11 +44,11 @@ if (typeof document !== 'undefined') {
   document.getElementById('check-answer').addEventListener('click', () => {
     const expected = lessons[currentLessonIndex].quiz.answer;
 
-    if (isAnswerCorrect(elements.answerInput.value, expected)) {
-      elements.quizFeedback.textContent = 'Correct! Zoo heev!';
+  if (isAnswerCorrect(elements.answerInput.value, expected)) {
+      elements.quizFeedback.textContent = 'Yog lawm! Zoo heev!';
       elements.quizFeedback.className = 'correct';
     } else {
-      elements.quizFeedback.textContent = `Not quite. Correct answer: ${expected}`;
+      elements.quizFeedback.textContent = `Tsis yog kiag. Lo teb yog: ${expected}`;
       elements.quizFeedback.className = 'incorrect';
     }
   });

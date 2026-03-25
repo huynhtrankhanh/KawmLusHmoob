@@ -40,5 +40,47 @@ export const lessons = [
       prompt: 'Translate to Hmong: “Today”',
       answer: 'Hnub no'
     }
+  },
+  {
+    title: 'Lesson 4: Food and Drink',
+    level: 'A2',
+    grammar: 'Use "kuv xav..." to say what you want. Example: "Kuv xav haus dej."',
+    vocabulary: [
+      { hmong: 'Dej', english: 'Water' },
+      { hmong: 'Mov', english: 'Rice/meal' },
+      { hmong: 'Kuv xav haus dej', english: 'I want to drink water' }
+    ],
+    quiz: {
+      prompt: 'Translate to Hmong: “Water”',
+      answer: 'Dej'
+    }
+  },
+  {
+    title: 'Lesson 5: Directions',
+    level: 'A2',
+    grammar: 'Use "nyob qhov twg?" to ask location. Example: "Chav dej nyob qhov twg?"',
+    vocabulary: [
+      { hmong: 'Sab laug', english: 'Left side' },
+      { hmong: 'Sab xis', english: 'Right side' },
+      { hmong: 'Nyob qhov twg?', english: 'Where is it?' }
+    ],
+    quiz: {
+      prompt: 'Translate to English: “Sab xis”',
+      answer: 'Right side'
+    }
+  },
+  {
+    title: 'Lesson 6: Time and Plans',
+    level: 'A2',
+    grammar: 'Use "tag kis" (tomorrow) and "hmo no" (tonight) to speak about plans.',
+    vocabulary: [
+      { hmong: 'Tag kis', english: 'Tomorrow' },
+      { hmong: 'Hmo no', english: 'Tonight' },
+      { hmong: 'Peb mam mus tag kis', english: 'We will go tomorrow' }
+    ],
+    quiz: {
+      prompt: 'Translate to Hmong: “Tomorrow”',
+      answer: 'Tag kis'
+    }
   }
 ];
